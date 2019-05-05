@@ -1,10 +1,3 @@
-#Q1
-scp -i 44332971.pem twain.txt ubuntu@ec2-54-252-141-71.ap-southeast-2.compute.amazonaws.com:
-sed 's/Huck/HucK/' twain.txt
-
-#Q2
-
-
 #Q3
 integer = int(input("Please enter an integer:"))
 
