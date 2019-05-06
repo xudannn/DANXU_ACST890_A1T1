@@ -2,6 +2,17 @@
 scp -i 44332971.pem twain.txt ubuntu@ec2-54-252-141-71.ap-southeast-2.compute.amazonaws.com:
 sed 's/Huck/HucK/' twain.txt
 
+#Q2
+scp -i 44332971.pem userargument.py ubuntu@ec2-54-252-141-71.ap-southeast-2.compute.amazonaws.com:
+scp -i 44332971.pem stdio.py ubuntu@ec2-54-252-141-71.ap-southeast-2.compute.amazonaws.com:
+ls
+python3 userargument.py python
+python3 userargument.py @!&^%
+python3 userargument.py 1234
+python3 userargument.py Bob
+userargument.py Bob
+python3 userargument.py Alice Bob
+
 #Q3
 integer = int(input("Please enter an integer:"))
 
